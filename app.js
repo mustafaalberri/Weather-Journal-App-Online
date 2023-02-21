@@ -1,6 +1,6 @@
 /* Global Variables */
 const apiKey = '&appid=e627aebbf71d357d969cab419077a6c8&units=metric';
-const directURL = 'http://api.openweathermap.org/geo/1.0/zip?zip=';
+const directURL = 'https://api.openweathermap.org/geo/1.0/zip?zip=';
 const weatherURL = 'https://api.openweathermap.org/data/2.5/weather?lat=';
 let latitude, longitude;
 let countryCode = 'US';
