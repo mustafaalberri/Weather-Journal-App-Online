@@ -69,7 +69,7 @@ const updateHTML = (data, icon, description) => {
     content.innerHTML = data.userResponse;
     date.innerHTML = data.date;
     // Code for updating the weather icon element.
-    weatherIcon.src = `http://openweathermap.org/img/wn/${icon}@2x.png`;
+    weatherIcon.src = `https://openweathermap.org/img/wn/${icon}@2x.png`;
     weatherIcon.alt = description;
   }, 500);
   // Making elements appear one after the other using setTimeOut().
