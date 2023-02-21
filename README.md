@@ -13,19 +13,16 @@
 ## Overview
 The purpose of this project is to create an app that takes in user input (zipcode) and user response (feelings), and then gets the most recent weather data according to the zipcode by utilizing the OpenWeatherMap API. The default country that appears when loaded is the United States of America, but this can be changed by clicking the 'Change Country' button and entering your country. The app will give you an alert if it was provided with an invalid country or zipcode. The data displayed to the user are the date, temperature, and user response, accompanied by an icon that describes the weather.
 
+This is an online version of the [Weather Journal App](https://github.com/mustafaalberri/Weather-Journal-App), you can run itby visiting this [link] without needing to go through a complicated installation process.
+
 ## Support
 Please contact Mustafa Alberri: (E-mail) *mustafaalberri@gmail.com*, or (Mobile Number) **+201027660306** for support.
 
 ## Installation
-In order to run this project, you need to have the following installed in your computer: `Node.js`,  `http-server` as a package, and a web browser.
+In order to run this project, you need to have a web browser installed.
 
 ## How to Run The App
-To run the app, follow these steps:
-1. Open a command line window, navigate to the project folder, then navigate inside the 'website' folder.
-2. When inside the 'website' folder, from the command line, run the following line: `'http-server -p3000'` (make sure you have `http-server` package installed).
-3. Open a new tab (or window) of the command line, the run the server javascript file using the line: `'node server.js'`.
-4. Open a web browser, and go to: [localhost:3000](#localhost:3000).
-5. The app should be running, and you should be able to get the latest weather data.
+To run the app, either clone the repository into your coomputer and run 'index.html' file, or jus visit this [link].
 
 ## Technologies Used
 The technologies used in the creation of the app are: Javascript ES6, HTML, CSS, Node.js.
