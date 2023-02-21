@@ -13,7 +13,7 @@
 ## Overview
 The purpose of this project is to create an app that takes in user input (zipcode) and user response (feelings), and then gets the most recent weather data according to the zipcode by utilizing the OpenWeatherMap API. The default country that appears when loaded is the United States of America, but this can be changed by clicking the 'Change Country' button and entering your country. The app will give you an alert if it was provided with an invalid country or zipcode. The data displayed to the user are the date, temperature, and user response, accompanied by an icon that describes the weather.
 
-This is an online version of the [Weather Journal App](https://github.com/mustafaalberri/Weather-Journal-App), you can run itby visiting this [link](https://mustafaalberri.github.io/Weather-Journal-App-Online/) without needing to go through a complicated installation process.
+This is an online version of the [Weather Journal App](https://github.com/mustafaalberri/Weather-Journal-App), you can run it by visiting this [link](https://mustafaalberri.github.io/Weather-Journal-App-Online/) without needing to go through a complicated installation process.
 
 ## Support
 Please contact Mustafa Alberri: (E-mail) *mustafaalberri@gmail.com*, or (Mobile Number) **+201027660306** for support.
