@@ -27,7 +27,6 @@ const updateInterface = async (evt) => {
   data = await retrieveData(weatherURL + latitude + '&lon=' + longitude + apiKey);
   const icon = data.weather[0].icon;
   const description = data.weather[0].description;
-  console.log(data);
   // Take the information needed from the retrieved data object, and formulate a new object with only what's needed
   const newData = {temp: data.main.temp, date: newDate, userResponse: feels};
   // Update HTML elements with the new data retrieved from the server
